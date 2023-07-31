@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.search-bar input{
+  width:70%;
+  height: 30px;
+  border-radius: 5px;
+  border:1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+}
+.search-bar button{
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.videos{
+  display: flex;
+}
+
+.video-play{
+  width: 70%;
+}
+
+.video-list{
+  width: 30%;
+}
+
+ 
